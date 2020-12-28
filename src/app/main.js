@@ -21,6 +21,7 @@ if (!window.requestAnimationFrame) {
 
   function startGame() {
     // Menus.showCanvas();
+    inProgress = true;
     life = 3;
     setup(levels[currentLvl]);
     // Menus.removeEndScreen();

@@ -72,7 +72,6 @@ function update(dt) {
       falling = entity.falling,
       friction = entity.friction * (falling ? 0.5 : 1),
       accel = entity.accel * (falling ? 0.5 : 1);
-
     if (player_entity) checkPlayerPositions(entity);
 
     entity.ddx = 0;
